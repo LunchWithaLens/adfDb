@@ -1,0 +1,23 @@
+﻿CREATE TABLE [dbo].[EpmProjectStage](
+	[ProjectId] [nvarchar](255) NOT NULL PRIMARY KEY,
+	[ProjectActualCost] [decimal](18, 0) NULL,
+	[ProjectActualDuration] [decimal](18, 0) NULL,
+	[ProjectActualFinishDate] [datetime] NULL,
+	[ProjectActualStartDate] [datetime] NULL,
+	[ProjectActualWork] [decimal](18, 0) NULL,
+	[ProjectCost] [decimal](18, 0) NULL,
+	[ProjectCreatedDate] [datetime] NULL,
+	[ProjectCurrency] [nvarchar](255) NULL,
+	[ProjectDescription] [nvarchar](255) NULL,
+	[ProjectDuration] [decimal](18, 0) NULL,
+	[ProjectFinishDate] [datetime] NULL,
+	[ProjectIdentifier] [nvarchar](255) NULL,
+	[ProjectLastPublishedDate] [datetime] NULL,
+	[ProjectModifiedDate] [datetime] NULL,
+	[ProjectName] [nvarchar](255) NULL,
+	[ProjectPercentCompleted] [int] NULL,
+	[ProjectPercentWorkCompleted] [int] NULL,
+	[ProjectStartDate] [datetime] NULL,
+	[ProjectStatusDate] [datetime] NULL,
+	[ProjectWork] [decimal](18, 0) NULL
+)

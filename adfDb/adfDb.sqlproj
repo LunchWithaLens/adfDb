@@ -57,4 +57,12 @@
   <ItemGroup>
     <Folder Include="Properties" />
   </ItemGroup>
+  <ItemGroup>
+    <Build Include="EpmProject.sql" />
+    <Build Include="EpmProjectStage.sql" />
+    <Build Include="sp_adf_addNewProjectRows.sql" />
+    <Build Include="sp_adf_deleteProjectStagingRows.sql" />
+    <Build Include="sp_adf_removeDeletedProjects.sql" />
+    <Build Include="sp_adf_removeUpdatedProjects.sql" />
+  </ItemGroup>
 </Project>
